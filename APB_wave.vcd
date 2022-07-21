@@ -1,0 +1,257 @@
+$date
+	Thu Jul 21 08:49:08 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module APB_tb $end
+$var wire 32 ! read_data [31:0] $end
+$var reg 5 " Address [4:0] $end
+$var reg 1 # PCLK $end
+$var reg 1 $ PRESETn $end
+$var reg 1 % Transfer $end
+$var reg 1 & Wr_Rd $end
+$var reg 32 ' write_data [31:0] $end
+$scope module DUT $end
+$var wire 5 ( Address [4:0] $end
+$var wire 1 # PCLK $end
+$var wire 1 $ PRESETn $end
+$var wire 1 % Transfer $end
+$var wire 1 & Wr_Rd $end
+$var wire 32 ) write_data [31:0] $end
+$var wire 32 * read_data [31:0] $end
+$var wire 1 + PWRITE $end
+$var wire 32 , PWDATA [31:0] $end
+$var wire 1 - PSLVERR $end
+$var wire 1 . PSELx $end
+$var wire 1 / PREADY $end
+$var wire 32 0 PRDATA [31:0] $end
+$var wire 1 1 PENABLE $end
+$var wire 5 2 PADDR [4:0] $end
+$scope module Design_master $end
+$var wire 5 3 Address [4:0] $end
+$var wire 1 # PCLK $end
+$var wire 1 $ PRESETn $end
+$var wire 1 % Transfer $end
+$var wire 1 & Wr_Rd $end
+$var wire 32 4 write_data [31:0] $end
+$var wire 1 - PSLVERR $end
+$var wire 1 / PREADY $end
+$var wire 32 5 PRDATA [31:0] $end
+$var reg 5 6 PADDR [4:0] $end
+$var reg 1 1 PENABLE $end
+$var reg 1 . PSELx $end
+$var reg 32 7 PWDATA [31:0] $end
+$var reg 1 + PWRITE $end
+$var reg 2 8 ns [1:0] $end
+$var reg 2 9 ps [1:0] $end
+$var reg 32 : read_data [31:0] $end
+$upscope $end
+$scope module Design_slave $end
+$var wire 5 ; PADDR [4:0] $end
+$var wire 1 # PCLK $end
+$var wire 1 1 PENABLE $end
+$var wire 1 $ PRESETn $end
+$var wire 1 . PSELx $end
+$var wire 32 < PWDATA [31:0] $end
+$var wire 1 + PWRITE $end
+$var reg 32 = PRDATA [31:0] $end
+$var reg 1 / PREADY $end
+$var reg 1 - PSLVERR $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx =
+bx <
+bx ;
+bx :
+bx 9
+b0 8
+bx 7
+bx 6
+bx 5
+bx 4
+b10010 3
+bx 2
+x1
+bx 0
+0/
+x.
+0-
+bx ,
+x+
+bx *
+bx )
+b10010 (
+bx '
+x&
+1%
+1$
+0#
+b10010 "
+bx !
+$end
+#5
+b1 8
+01
+0.
+b0 9
+1#
+#10
+0#
+b11011110101011011011111011101111 '
+b11011110101011011011111011101111 )
+b11011110101011011011111011101111 4
+1&
+#15
+b10 8
+b11011110101011011011111011101111 ,
+b11011110101011011011111011101111 7
+b11011110101011011011111011101111 <
+b10010 2
+b10010 6
+b10010 ;
+1.
+1+
+b1 9
+1#
+#20
+0#
+b11011010101110111100101011111110 '
+b11011010101110111100101011111110 )
+b11011010101110111100101011111110 4
+b10101 "
+b10101 (
+b10101 3
+#25
+b1 8
+1/
+11
+b10 9
+1#
+#30
+0#
+#35
+b10 8
+b11011010101110111100101011111110 ,
+b11011010101110111100101011111110 7
+b11011010101110111100101011111110 <
+0/
+b10101 2
+b10101 6
+b10101 ;
+01
+b1 9
+1#
+#40
+0#
+#45
+b1 8
+1/
+11
+b10 9
+1#
+#50
+0#
+bx '
+bx )
+bx 4
+#55
+b10 8
+bx ,
+bx 7
+bx <
+0/
+01
+b1 9
+1#
+#60
+b0 8
+0#
+0%
+#65
+b0 9
+1#
+#70
+0#
+#75
+b1 8
+0.
+0+
+1#
+b10010 "
+b10010 (
+b10010 3
+0&
+1%
+#80
+0#
+#85
+b10 8
+b10010 2
+b10010 6
+b10010 ;
+1.
+b1 9
+1#
+#90
+0#
+#95
+b1 8
+b11011110101011011011111011101111 0
+b11011110101011011011111011101111 5
+b11011110101011011011111011101111 =
+1/
+11
+b10 9
+1#
+#100
+0#
+#105
+b10 8
+0/
+b10101 2
+b10101 6
+b10101 ;
+01
+b1 9
+1#
+b10101 "
+b10101 (
+b10101 3
+#110
+0#
+#115
+b1 8
+b11011010101110111100101011111110 0
+b11011010101110111100101011111110 5
+b11011010101110111100101011111110 =
+1/
+b11011110101011011011111011101111 !
+b11011110101011011011111011101111 *
+b11011110101011011011111011101111 :
+11
+b10 9
+1#
+#120
+0#
+#125
+b1 9
+b0 8
+1#
+0%
+#130
+0#
+#135
+b0 9
+1#
+#140
+0#
+#145
+1#
